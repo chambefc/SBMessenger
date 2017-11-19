@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91BA26E81FC193B00051CC15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA26E71FC193B00051CC15 /* AppDelegate.swift */; };
+		91BA26EA1FC193B00051CC15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BA26E91FC193B00051CC15 /* ViewController.swift */; };
+		91BA26ED1FC193B00051CC15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BA26EB1FC193B00051CC15 /* Main.storyboard */; };
+		91BA26F01FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91BA26EE1FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodeld */; };
+		91BA26F21FC193B00051CC15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BA26F11FC193B00051CC15 /* Assets.xcassets */; };
+		91BA26F51FC193B00051CC15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BA26F31FC193B00051CC15 /* LaunchScreen.storyboard */; };
+		BCFD0933C41313C0A4FE6B73 /* Pods_StaffBooker_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F359EEC121F17497A88316DF /* Pods_StaffBooker_Messenger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91BA26E41FC193B00051CC15 /* StaffBooker Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StaffBooker Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BA26E71FC193B00051CC15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91BA26E91FC193B00051CC15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91BA26EC1FC193B00051CC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91BA26EF1FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StaffBooker_Messenger.xcdatamodel; sourceTree = "<group>"; };
+		91BA26F11FC193B00051CC15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91BA26F41FC193B00051CC15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91BA26F61FC193B00051CC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6F0656FC6EA5C02A90763F /* Pods-StaffBooker Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffBooker Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaffBooker Messenger/Pods-StaffBooker Messenger.debug.xcconfig"; sourceTree = "<group>"; };
+		CD651B03E0F692479802D88D /* Pods-StaffBooker Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaffBooker Messenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaffBooker Messenger/Pods-StaffBooker Messenger.release.xcconfig"; sourceTree = "<group>"; };
+		F359EEC121F17497A88316DF /* Pods_StaffBooker_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaffBooker_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91BA26E11FC193B00051CC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFD0933C41313C0A4FE6B73 /* Pods_StaffBooker_Messenger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91BA26DB1FC193B00051CC15 = {
+			isa = PBXGroup;
+			children = (
+				91BA26E61FC193B00051CC15 /* StaffBooker Messenger */,
+				91BA26E51FC193B00051CC15 /* Products */,
+				E7AAA434F05CB2800302BF96 /* Pods */,
+				F101B318FE007C2DEE9E1640 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91BA26E51FC193B00051CC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91BA26E41FC193B00051CC15 /* StaffBooker Messenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91BA26E61FC193B00051CC15 /* StaffBooker Messenger */ = {
+			isa = PBXGroup;
+			children = (
+				91BA26E71FC193B00051CC15 /* AppDelegate.swift */,
+				91BA26E91FC193B00051CC15 /* ViewController.swift */,
+				91BA26EB1FC193B00051CC15 /* Main.storyboard */,
+				91BA26F11FC193B00051CC15 /* Assets.xcassets */,
+				91BA26F31FC193B00051CC15 /* LaunchScreen.storyboard */,
+				91BA26F61FC193B00051CC15 /* Info.plist */,
+				91BA26EE1FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodeld */,
+			);
+			path = "StaffBooker Messenger";
+			sourceTree = "<group>";
+		};
+		E7AAA434F05CB2800302BF96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F0656FC6EA5C02A90763F /* Pods-StaffBooker Messenger.debug.xcconfig */,
+				CD651B03E0F692479802D88D /* Pods-StaffBooker Messenger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F101B318FE007C2DEE9E1640 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F359EEC121F17497A88316DF /* Pods_StaffBooker_Messenger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91BA26E31FC193B00051CC15 /* StaffBooker Messenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BA26F91FC193B00051CC15 /* Build configuration list for PBXNativeTarget "StaffBooker Messenger" */;
+			buildPhases = (
+				03E96521FC6B2FA2E279074C /* [CP] Check Pods Manifest.lock */,
+				91BA26E01FC193B00051CC15 /* Sources */,
+				91BA26E11FC193B00051CC15 /* Frameworks */,
+				91BA26E21FC193B00051CC15 /* Resources */,
+				64B2A0B7CD6E9C9952038EDF /* [CP] Embed Pods Frameworks */,
+				13D259A91783B6450435792F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StaffBooker Messenger";
+			productName = "StaffBooker Messenger";
+			productReference = 91BA26E41FC193B00051CC15 /* StaffBooker Messenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91BA26DC1FC193B00051CC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Camille Chambefort";
+				TargetAttributes = {
+					91BA26E31FC193B00051CC15 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91BA26DF1FC193B00051CC15 /* Build configuration list for PBXProject "StaffBooker Messenger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91BA26DB1FC193B00051CC15;
+			productRefGroup = 91BA26E51FC193B00051CC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91BA26E31FC193B00051CC15 /* StaffBooker Messenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91BA26E21FC193B00051CC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BA26F51FC193B00051CC15 /* LaunchScreen.storyboard in Resources */,
+				91BA26F21FC193B00051CC15 /* Assets.xcassets in Resources */,
+				91BA26ED1FC193B00051CC15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E96521FC6B2FA2E279074C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StaffBooker Messenger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D259A91783B6450435792F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaffBooker Messenger/Pods-StaffBooker Messenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B2A0B7CD6E9C9952038EDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StaffBooker Messenger/Pods-StaffBooker Messenger-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Atlas/Atlas.framework",
+				"${PODS_ROOT}/LayerKit/LayerKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Atlas.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayerKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaffBooker Messenger/Pods-StaffBooker Messenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91BA26E01FC193B00051CC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BA26EA1FC193B00051CC15 /* ViewController.swift in Sources */,
+				91BA26F01FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodeld in Sources */,
+				91BA26E81FC193B00051CC15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91BA26EB1FC193B00051CC15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91BA26EC1FC193B00051CC15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91BA26F31FC193B00051CC15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91BA26F41FC193B00051CC15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91BA26F71FC193B00051CC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91BA26F81FC193B00051CC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91BA26FA1FC193B00051CC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6F0656FC6EA5C02A90763F /* Pods-StaffBooker Messenger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StaffBooker Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Staffbooker.StaffBooker-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91BA26FB1FC193B00051CC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD651B03E0F692479802D88D /* Pods-StaffBooker Messenger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "StaffBooker Messenger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Staffbooker.StaffBooker-Messenger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91BA26DF1FC193B00051CC15 /* Build configuration list for PBXProject "StaffBooker Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BA26F71FC193B00051CC15 /* Debug */,
+				91BA26F81FC193B00051CC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BA26F91FC193B00051CC15 /* Build configuration list for PBXNativeTarget "StaffBooker Messenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BA26FA1FC193B00051CC15 /* Debug */,
+				91BA26FB1FC193B00051CC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91BA26EE1FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91BA26EF1FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodel */,
+			);
+			currentVersion = 91BA26EF1FC193B00051CC15 /* StaffBooker_Messenger.xcdatamodel */;
+			path = StaffBooker_Messenger.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91BA26DC1FC193B00051CC15 /* Project object */;
+}
